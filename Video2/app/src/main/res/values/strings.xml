@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Video</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="menu_search">Keyword...</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_history">History</string>
+    <string name="app_label">Youtube Video</string>
+    <string name="search_hint">Keyword...</string>
+    <string name="player_error">Error find the video</string>
+</resources>

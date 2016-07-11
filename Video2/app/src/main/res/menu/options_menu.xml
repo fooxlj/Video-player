@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto"
+     >
+    <item
+        android:id="@+id/menu_search"
+        android:title="@string/menu_search"
+
+        appcompat:actionViewClass="com.myapp.fooxlj.video.UI.ArrayAdapterSearchView"
+        appcompat:showAsAction="always"/>
+
+    <item android:id="@+id/menu_favorite"
+        android:icon="@drawable/likemenu"
+        android:title="@string/menu_favorite"
+        appcompat:showAsAction="always"/>
+
+    <item android:id="@+id/menu_history"
+        android:icon="@drawable/history"
+        android:title="@string/menu_history"
+        appcompat:showAsAction="always"/>
+</menu>
